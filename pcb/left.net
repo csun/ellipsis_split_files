@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/Users/cameron.sun/ellipsis_split_files/pcb/left.kicad_sch")
-    (date "Friday, December 23, 2022 at 11:33:20 PM")
+    (date "Saturday, December 24, 2022 at 10:41:49 AM")
     (tool "Eeschema (6.0.10-0)")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -649,9 +649,9 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "00000000-0000-0000-0000-00005ea10446"))
     (comp (ref "U2")
-      (value "ProMicro")
-      (footprint "keebio:ArduinoProMicro")
-      (libsource (lib "keebio") (part "ProMicro") (description ""))
+      (value "ProMicro USBC")
+      (footprint "keebio:ArduinoProMicro-USBC-Alibaba")
+      (libsource (lib "keebio") (part "ProMicro_usbc_alibaba") (description ""))
       (property (name "Sheetname") (value ""))
       (property (name "Sheetfile") (value "left.kicad_sch"))
       (sheetpath (names "/") (tstamps "/"))
@@ -667,10 +667,10 @@
       (pins
         (pin (num "1") (name "1") (type "passive"))
         (pin (num "2") (name "2") (type "passive"))))
-    (libpart (lib "keebio") (part "ProMicro")
+    (libpart (lib "keebio") (part "ProMicro_usbc_alibaba")
       (fields
         (field (name "Reference") "U")
-        (field (name "Value") "ProMicro"))
+        (field (name "Value") "ProMicro_usbc_alibaba"))
       (pins
         (pin (num "1") (name "TX0/PD3") (type "input"))
         (pin (num "2") (name "RX1/PD2") (type "input"))
@@ -752,7 +752,7 @@
     (library (logical "Switch")
       (uri "/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym"))
     (library (logical "keebio")
-      (uri "/Users/cameron.sun/ellipsis_split_files/pcb/keebio.lib"))
+      (uri "/Users/cameron.sun/ellipsis_split_files/pcb/keebio.kicad_sym"))
     (library (logical "mouser")
       (uri "/Users/cameron.sun/ellipsis_split_files/pcb/SamacSys_Parts.lib"))
     (library (logical "pspice")

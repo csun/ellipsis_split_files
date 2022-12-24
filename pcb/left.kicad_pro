@@ -381,7 +381,7 @@
       "idf": "",
       "netlist": "left.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "left.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
