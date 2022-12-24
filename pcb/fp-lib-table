@@ -1,7 +1,8 @@
 (fp_lib_table
-  (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/keyboard_parts.pretty)(options "")(descr ""))
-  (lib (name keebs)(type KiCad)(uri ${KIPRJMOD}/keebs.pretty)(options "")(descr ""))
-  (lib (name keebio)(type KiCad)(uri ${KIPRJMOD}/keebio-parts.pretty)(options "")(descr ""))
-  (lib (name mouser)(type KiCad)(uri ${KIPRJMOD}/SamacSys_Parts.pretty)(options "")(descr ""))
-  (lib (name graphics)(type KiCad)(uri C:/Users/Cameron/Desktop/ellipsis_pcb/graphics)(options "")(descr ""))
+  (lib (name "keyboard_parts")(type "KiCad")(uri "${KIPRJMOD}/keyboard_parts.pretty")(options "")(descr ""))
+  (lib (name "keebs")(type "KiCad")(uri "${KIPRJMOD}/keebs.pretty")(options "")(descr ""))
+  (lib (name "keebio")(type "KiCad")(uri "${KIPRJMOD}/keebio-parts.pretty")(options "")(descr ""))
+  (lib (name "mouser")(type "KiCad")(uri "${KIPRJMOD}/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "graphics")(type "KiCad")(uri "${KIPRJMOD}/graphics")(options "")(descr ""))
+  (lib (name "toggle")(type "KiCad")(uri "${KIPRJMOD}/toggle.pretty")(options "")(descr ""))
 )

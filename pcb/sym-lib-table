@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/teensy.lib)(options "")(descr ""))
-  (lib (name keebio)(type Legacy)(uri ${KIPRJMOD}/keebio.lib)(options "")(descr ""))
-  (lib (name mouser)(type Legacy)(uri ${KIPRJMOD}/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/teensy.lib")(options "")(descr ""))
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/keebio.lib")(options "")(descr ""))
+  (lib (name "mouser")(type "Legacy")(uri "${KIPRJMOD}/SamacSys_Parts.lib")(options "")(descr ""))
+  (lib (name "toggle")(type "KiCad")(uri "${KIPRJMOD}/100SP1T2B4M6QE.kicad_sym")(options "")(descr ""))
 )
