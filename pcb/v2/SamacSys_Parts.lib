@@ -1,0 +1,96 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL36P005000
+#/1108948/250688/2.46/3/4/Switch
+DEF TL36P005000 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "TL36P005000" 650 200 50 H V L CNN
+F2 "TL36P005000" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/TL36P005000.pdf" 650 0 50 H I L CNN
+F4 "Toggle Switches SPDT 0.4VA 20VAC/DC 5.3mm On-On" 650 -100 50 H I L CNN "Description"
+F5 "19" 650 -200 50 H I L CNN "Height"
+F6 "642-TL36P005000" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=642-TL36P005000" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Apem" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL36P005000" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 53426-0410
+#/857982/250688/2.46/4/4/Connector
+DEF 53426-0410 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "53426-0410" 650 200 50 H V L CNN
+F2 "SHDR4W60P0X250_1X4_1240X1150X670P" 650 100 50 H I L CNN
+F3 "http://www.molex.com/molex/products/datasheet.jsp?part=active/0534260410_PCB_HEADERS.xml&channel=Products&Lang=en-US" 650 0 50 H I L CNN
+F4 "2.50mm Pitch Mini-Lock Wire-to-Board Header, Right Angle, Friction and Positive Lock, 4 Circuits" 650 -100 50 H I L CNN "Description"
+F5 "6.7" 650 -200 50 H I L CNN "Height"
+F6 "538-53426-0410" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/53426-0410?qs=9BfFgGvh7CdBwfW5YnFZ7w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "53426-0410" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 0 -300 200 R 50 50 0 0 U
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LL3301NF065QG
+#/519599/250688/2.46/4/4/Switch
+DEF LL3301NF065QG S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "LL3301NF065QG" 650 200 50 H V L CNN
+F2 "LL3301NF065QG" 650 100 50 H I L CNN
+F3 "http://spec_sheets.e-switch.com/specs/P090002.pdf" 650 0 50 H I L CNN
+F4 "E-SWITCH - LL3301NF065QG - TACTILE SW, SPST, 0.05A, 12VDC, SOLDER" 650 -100 50 H I L CNN "Description"
+F5 "4" 650 -200 50 H I L CNN "Height"
+F6 "612-LL3301NF065QG" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "E-Switch" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LL3301NF065QG" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 800 0 200 L 50 50 0 0 U
+X 3 3 0 -100 200 R 50 50 0 0 U
+X 4 4 800 -100 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TL36P005000
+D Toggle Switches SPDT 0.4VA 20VAC/DC 5.3mm On-On
+K
+F https://componentsearchengine.com/Datasheets/1/TL36P005000.pdf
+$ENDCMP
+#
+$CMP 53426-0410
+D 2.50mm Pitch Mini-Lock Wire-to-Board Header, Right Angle, Friction and Positive Lock, 4 Circuits
+K
+F http://www.molex.com/molex/products/datasheet.jsp?part=active/0534260410_PCB_HEADERS.xml&channel=Products&Lang=en-US
+$ENDCMP
+#
+$CMP LL3301NF065QG
+D E-SWITCH - LL3301NF065QG - TACTILE SW, SPST, 0.05A, 12VDC, SOLDER
+K
+F http://spec_sheets.e-switch.com/specs/P090002.pdf
+$ENDCMP
+#
+#End Doc Library
